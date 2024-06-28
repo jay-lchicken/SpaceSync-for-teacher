@@ -19,7 +19,7 @@ function add() {
     const content = document.getElementById("content").value;
     console.log(new Date().getTime())
     db.collection("S1-08").add({
-        name: name,
+        author: name,
         title: title,
         content: content,  
         dateAdded: new Date().getTime()
